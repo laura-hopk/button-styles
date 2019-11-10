@@ -13,7 +13,10 @@ div {
 }
 
 .btn {
+  display: inline-block;
   padding: .5em;
+  padding-left: .75rem;
+  padding-right: .75rem;
   background-color: #333;
   color: #fff;
   border-radius: 8px;
@@ -22,5 +25,41 @@ div {
 }
 
 .btn-small {
+  font-size: .875rem;
+}
 
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #333;
+  border: solid 3px #000;
+}
+
+.btn-warning {
+  background-color: #f33;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  border: solid 3px #666;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
